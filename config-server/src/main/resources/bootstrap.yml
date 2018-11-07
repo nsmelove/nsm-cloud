@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+  cloud:
+      config:
+        server:
+          native:
+            searchLocations: config/
+          git:
+            uri: https://github.com/spring-cloud-samples/config-repo
