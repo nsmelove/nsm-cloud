@@ -1,0 +1,17 @@
+server:
+  port: 8762
+
+spring:
+  application:
+    name: app1
+  profiles:
+    active: dev
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        serviceId: config-server
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

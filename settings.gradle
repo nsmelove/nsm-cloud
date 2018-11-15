@@ -1,0 +1,10 @@
+rootProject.name = 'nsm-cloud'
+
+include 'config-server'
+
+include 'app1'
+
+include 'registry'
+
+include 'app2'
+

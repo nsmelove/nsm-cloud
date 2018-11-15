@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":config-server" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="nsm-cloud" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":app2" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="nsm-cloud" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/build/classes/java/main" />
     <output-test url="file://$MODULE_DIR$/build/classes/java/test" />
@@ -15,61 +15,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.11" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-log4j12:1.7.5" level="project" />
     <orderEntry type="library" name="Gradle: log4j:log4j:1.2.17" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-config-server:2.0.2.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-config-client:2.0.2.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:2.0.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.0.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-crypto:5.0.9.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-rsa:1.0.7.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jgit:org.eclipse.jgit:4.11.0.201803080745-r" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jgit:org.eclipse.jgit.http.apache:4.11.0.201803080745-r" level="project" />
-    <orderEntry type="library" name="Gradle: org.yaml:snakeyaml:1.19" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.0.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-commons:2.0.2.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-context:2.0.2.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-web:5.0.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.7" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:2.0.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-actuator-autoconfigure:2.0.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: io.micrometer:micrometer-core:1.0.7" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-json:2.0.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:2.0.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.hibernate.validator:hibernate-validator:6.0.13.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-webmvc:5.0.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.bouncycastle:bcpkix-jdk15on:1.60" level="project" />
-    <orderEntry type="library" name="Gradle: com.jcraft:jsch:0.1.54" level="project" />
-    <orderEntry type="library" name="Gradle: com.jcraft:jzlib:1.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.googlecode.javaewah:JavaEWAH:1.1.6" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.6" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:2.0.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.0.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.0.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.7" level="project" />
-    <orderEntry type="library" name="Gradle: javax.annotation:javax.annotation-api:1.3.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-actuator:2.0.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-context:5.0.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.hdrhistogram:HdrHistogram:2.1.10" level="project" />
-    <orderEntry type="library" name="Gradle: org.latencyutils:LatencyUtils:2.0.3" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.7" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.7" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.7" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:8.5.34" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:8.5.34" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.34" level="project" />
-    <orderEntry type="library" name="Gradle: javax.validation:validation-api:2.0.1.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging:3.3.2.Final" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml:classmate:1.3.4" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-aop:5.0.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-expression:5.0.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.bouncycastle:bcprov-jdk15on:1.60" level="project" />
-    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
-    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.9" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.0.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-annotations-api:8.5.34" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:2.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: com.netflix.ribbon:ribbon-eureka:2.2.5" level="project" />
     <orderEntry type="library" name="Gradle: com.netflix.eureka:eureka-core:1.9.3" level="project" />
@@ -82,7 +31,6 @@
     <orderEntry type="library" name="Gradle: com.netflix.ribbon:ribbon-loadbalancer:2.2.5" level="project" />
     <orderEntry type="library" name="Gradle: com.netflix.ribbon:ribbon-core:2.2.5" level="project" />
     <orderEntry type="library" name="Gradle: com.netflix.netflix-commons:netflix-infix:0.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.netflix.hystrix:hystrix-core:1.4.3" level="project" />
     <orderEntry type="library" name="Gradle: io.reactivex:rxnetty-contexts:0.4.9" level="project" />
     <orderEntry type="library" name="Gradle: io.reactivex:rxnetty-servo:0.4.9" level="project" />
     <orderEntry type="library" name="Gradle: io.reactivex:rxnetty:0.4.9" level="project" />
@@ -92,18 +40,37 @@
     <orderEntry type="library" name="Gradle: com.netflix.servo:servo-core:0.12.21" level="project" />
     <orderEntry type="library" name="Gradle: com.netflix.netflix-commons:netflix-statistics:0.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-config:2.0.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.0.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter:2.0.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-config-client:2.0.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-json:2.0.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.7" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.7" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.7" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.7" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-client:2.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-netflix-core:2.0.2.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-aop:2.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: com.thoughtworks.xstream:xstream:1.4.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-aop:2.0.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:2.0.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:2.0.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.hibernate.validator:hibernate-validator:6.0.13.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-webmvc:5.0.10.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-web:5.0.10.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-context:2.0.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-commons:2.0.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-rsa:1.0.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.4" level="project" />
-    <orderEntry type="library" name="Gradle: com.sun.jersey.contribs:jersey-apache-client4:1.19.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.5.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.7" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.jettison:jettison:1.3.7" level="project" />
+    <orderEntry type="library" name="Gradle: com.sun.jersey.contribs:jersey-apache-client4:1.19.1" level="project" />
     <orderEntry type="library" name="Gradle: com.sun.jersey:jersey-client:1.19.1" level="project" />
     <orderEntry type="library" name="Gradle: com.sun.jersey:jersey-core:1.19.1" level="project" />
     <orderEntry type="library" name="Gradle: javax.ws.rs:jsr311-api:1.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.5.3" level="project" />
     <orderEntry type="library" name="Gradle: com.google.inject:guice:4.1.0" level="project" />
     <orderEntry type="library" name="Gradle: com.github.vlsi.compactmap:compactmap:1.2.1" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.woodstox:woodstox-core-asl:4.4.1" level="project" />
@@ -113,25 +80,58 @@
     <orderEntry type="library" name="Gradle: io.reactivex:rxjava:1.2.0" level="project" />
     <orderEntry type="library" name="Gradle: xmlpull:xmlpull:1.1.3.1" level="project" />
     <orderEntry type="library" name="Gradle: xpp3:xpp3_min:1.1.4c" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:2.0.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: javax.annotation:javax.annotation-api:1.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-context:5.0.10.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-aop:5.0.10.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.0.10.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-expression:5.0.10.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.0.10.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.yaml:snakeyaml:1.19" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.34" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:8.5.34" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:8.5.34" level="project" />
+    <orderEntry type="library" name="Gradle: javax.validation:validation-api:2.0.1.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging:3.3.2.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml:classmate:1.3.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-crypto:5.0.9.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.bouncycastle:bcpkix-jdk15on:1.60" level="project" />
     <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.8.13" level="project" />
     <orderEntry type="library" name="Gradle: stax:stax-api:1.0.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-math:2.2" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.1" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:19.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.6" level="project" />
+    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.9" level="project" />
     <orderEntry type="library" name="Gradle: javax.inject:javax.inject:1" level="project" />
     <orderEntry type="library" name="Gradle: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" name="Gradle: com.github.andrewoma.dexx:dexx-collections:0.2" level="project" />
+    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" name="Gradle: javax.xml.stream:stax-api:1.0-2" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.woodstox:stax2-api:3.1.4" level="project" />
     <orderEntry type="library" name="Gradle: commons-lang:commons-lang:2.6" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.code.findbugs:annotations:2.0.0" level="project" />
     <orderEntry type="library" name="Gradle: commons-collections:commons-collections:3.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.0.10.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.bouncycastle:bcprov-jdk15on:1.60" level="project" />
     <orderEntry type="library" name="Gradle: commons-jxpath:commons-jxpath:1.3" level="project" />
     <orderEntry type="library" name="Gradle: joda-time:joda-time:2.3" level="project" />
     <orderEntry type="library" name="Gradle: org.antlr:antlr-runtime:3.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-annotations-api:8.5.34" level="project" />
     <orderEntry type="library" name="Gradle: org.antlr:stringtemplate:3.2.1" level="project" />
     <orderEntry type="library" name="Gradle: antlr:antlr:2.7.7" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-openfeign:2.0.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: io.github.openfeign:feign-slf4j:9.7.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.github.openfeign:feign-hystrix:9.7.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.hystrix:hystrix-core:1.4.26" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-openfeign-core:2.0.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: io.github.openfeign.form:feign-form-spring:3.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.github.openfeign:feign-java8:9.7.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.github.openfeign:feign-core:9.7.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.github.openfeign.form:feign-form:3.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:annotations:3.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: commons-fileupload:commons-fileupload:1.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: commons-io:commons-io:2.2" level="project" />
+    <orderEntry type="library" name="Gradle: net.jcip:jcip-annotations:1.0" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -146,11 +146,11 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-config-server/2.0.2.RELEASE/20b355c82e869651517ad82496cf0d8c7fb9a93d/spring-cloud-config-server-2.0.2.RELEASE.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-config/2.0.2.RELEASE/aaa3700a807c945e65e20a51994b4754a7444987/spring-cloud-starter-config-2.0.2.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-config-server/2.0.2.RELEASE/d40d697a6de7d6c9288a5eb2383d6afb6b3623e7/spring-cloud-config-server-2.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-config/2.0.2.RELEASE/ccb123ab0f4526b262943f475ea154abe3a3142a/spring-cloud-starter-config-2.0.2.RELEASE-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -162,6 +162,17 @@
         <JAVADOC />
         <SOURCES>
           <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client/2.0.2.RELEASE/e7dbc622cd1ea702269874706af482e80726013c/spring-cloud-starter-netflix-eureka-client-2.0.2.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/2.0.6.RELEASE/e803fc341b450b2ce01734df12e5881b8e78c0a7/spring-boot-starter-web-2.0.6.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/2.0.6.RELEASE/3c5d430ba32ddc10b8f48efff3f5b7cfb5fd1d80/spring-boot-starter-web-2.0.6.RELEASE-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -190,6 +201,17 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter/2.0.2.RELEASE/a145c38492435b6ef53c145c4ba7177de65fbb46/spring-cloud-starter-2.0.2.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter/2.0.2.RELEASE/2f93a26a788f0ac2bed8ff55131b2c03d748bc50/spring-cloud-starter-2.0.2.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
           <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-config-client/2.0.2.RELEASE/a60cad031e20a76121070fe570ed9a76aa89a290/spring-cloud-config-client-2.0.2.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -201,88 +223,11 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/2.0.6.RELEASE/e883ca43beebc8d1726346e647c5f74d223aefc6/spring-boot-starter-actuator-2.0.6.RELEASE.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.7/e6faad47abd3179666e89068485a1b88a195ceb7/jackson-databind-2.9.7.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/2.0.6.RELEASE/fecd0584b98e9e94ff6f2aa129889c89f20b901c/spring-boot-starter-actuator-2.0.6.RELEASE-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/2.0.6.RELEASE/e803fc341b450b2ce01734df12e5881b8e78c0a7/spring-boot-starter-web-2.0.6.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/2.0.6.RELEASE/3c5d430ba32ddc10b8f48efff3f5b7cfb5fd1d80/spring-boot-starter-web-2.0.6.RELEASE-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/5.0.9.RELEASE/50cc3e212645b95494a14b6e71800c4b1f3de131/spring-security-crypto-5.0.9.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/5.0.9.RELEASE/92e0297cff8b4c4245d6ad837d30819b421a33a0/spring-security-crypto-5.0.9.RELEASE-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-rsa/1.0.7.RELEASE/8fb787a76b2a31b7efbb71ae9be68b269a358302/spring-security-rsa-1.0.7.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-rsa/1.0.7.RELEASE/d57e5d3237fb53cca75dc5316ca0ce9cb5e4e126/spring-security-rsa-1.0.7.RELEASE-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/4.11.0.201803080745-r/4ae44a6157e1bc4c5b373be0c274a8f1d9badd76/org.eclipse.jgit-4.11.0.201803080745-r.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/4.11.0.201803080745-r/ad6f30f7b7f016a1390f8d289be7da2a9a1f47c5/org.eclipse.jgit-4.11.0.201803080745-r-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit.http.apache/4.11.0.201803080745-r/1fa8ea9c093fd288283dc50107d078d4752ba7fc/org.eclipse.jgit.http.apache-4.11.0.201803080745-r.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit.http.apache/4.11.0.201803080745-r/73090de4e44e8d99b0243a880d0738270dbae11d/org.eclipse.jgit.http.apache-4.11.0.201803080745-r-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.19/2d998d3d674b172a588e54ab619854d073f555b5/snakeyaml-1.19.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.19/3110a637bd11c3094b8017dd1c29fd29baccf292/snakeyaml-1.19-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter/2.0.2.RELEASE/a145c38492435b6ef53c145c4ba7177de65fbb46/spring-cloud-starter-2.0.2.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter/2.0.2.RELEASE/2f93a26a788f0ac2bed8ff55131b2c03d748bc50/spring-cloud-starter-2.0.2.RELEASE-sources.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.7/26d2e8a615ae6d766bbaed952a9cc286f6860faf/jackson-databind-2.9.7-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -377,88 +322,11 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.6.RELEASE/e8c88fd703dbdf79f94178a5018ad67d1ecb1d0d/spring-boot-autoconfigure-2.0.6.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.6.RELEASE/ba7cdc47aee11fee86f9737a18c33a1ccf64b3ac/spring-boot-autoconfigure-2.0.6.RELEASE-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/2.0.2.RELEASE/9a10d873baefa48b087370dc86aa59461b258591/spring-cloud-commons-2.0.2.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/2.0.2.RELEASE/fa6feade7bab96e9d53f00e3459edc37dff3eade/spring-cloud-commons-2.0.2.RELEASE-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-context/2.0.2.RELEASE/8d9ac6e1d3e0868813fcd32da377108b3de53972/spring-cloud-context-2.0.2.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-context/2.0.2.RELEASE/347ab7f059abf2dbcba5203cfb5dfc74eb7df47c/spring-cloud-context-2.0.2.RELEASE-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.0.10.RELEASE/fbaaa53ec99f45fd7aaf9125beeb5c3388cce088/spring-web-5.0.10.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.0.10.RELEASE/f6fd4b97e5c2b6cbe4e5ac3d6ebc984cb299a5e0/spring-web-5.0.10.RELEASE-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.7/e6faad47abd3179666e89068485a1b88a195ceb7/jackson-databind-2.9.7.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.7/26d2e8a615ae6d766bbaed952a9cc286f6860faf/jackson-databind-2.9.7-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
           <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/2.0.6.RELEASE/9d904a4387e076343a3478c32198ec7d9d633ff4/spring-boot-starter-2.0.6.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
           <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/2.0.6.RELEASE/a989a421ca7b16f5d238e86d5c810b7d2ba7cdb0/spring-boot-starter-2.0.6.RELEASE-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator-autoconfigure/2.0.6.RELEASE/416d0c6cd9e249f1f811e6d07edc09f68c9b1198/spring-boot-actuator-autoconfigure-2.0.6.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator-autoconfigure/2.0.6.RELEASE/bfb57b8eb60de790762c98e741f895c1ccc91dd5/spring-boot-actuator-autoconfigure-2.0.6.RELEASE-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-core/1.0.7/f0e7ce9e6b3cc287fd1bfcfbaa4764b7102656a7/micrometer-core-1.0.7.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-core/1.0.7/a1a02506fb1859e99e8c910419e94e4f947b928e/micrometer-core-1.0.7-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -498,6 +366,17 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.0.10.RELEASE/fbaaa53ec99f45fd7aaf9125beeb5c3388cce088/spring-web-5.0.10.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.0.10.RELEASE/f6fd4b97e5c2b6cbe4e5ac3d6ebc984cb299a5e0/spring-web-5.0.10.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
           <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.0.10.RELEASE/88a601321e2b4e3b84eed0909c24b9dd8e453b5f/spring-webmvc-5.0.10.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -509,55 +388,55 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.60/d0c46320fbc07be3a24eb13a56cee4e3d38e0c75/bcpkix-jdk15on-1.60.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-context/2.0.2.RELEASE/8d9ac6e1d3e0868813fcd32da377108b3de53972/spring-cloud-context-2.0.2.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.60/a25f041293f401af08efba63ff4bbdce98134a03/bcpkix-jdk15on-1.60-sources.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-context/2.0.2.RELEASE/347ab7f059abf2dbcba5203cfb5dfc74eb7df47c/spring-cloud-context-2.0.2.RELEASE-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch/0.1.54/da3584329a263616e277e15462b387addd1b208d/jsch-0.1.54.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/2.0.2.RELEASE/9a10d873baefa48b087370dc86aa59461b258591/spring-cloud-commons-2.0.2.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch/0.1.54/91d6069df9be9e076bdb124e82fc2a9af9547616/jsch-0.1.54-sources.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/2.0.2.RELEASE/fa6feade7bab96e9d53f00e3459edc37dff3eade/spring-cloud-commons-2.0.2.RELEASE-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/com.jcraft/jzlib/1.1.1/a1551373315ffc2f96130a0e5704f74e151777ba/jzlib-1.1.1.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-rsa/1.0.7.RELEASE/8fb787a76b2a31b7efbb71ae9be68b269a358302/spring-security-rsa-1.0.7.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/com.jcraft/jzlib/1.1.1/dc910806edfb4c9a4b4c7e439a9cd3a3f0a090a9/jzlib-1.1.1-sources.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-rsa/1.0.7.RELEASE/d57e5d3237fb53cca75dc5316ca0ce9cb5e4e126/spring-security-rsa-1.0.7.RELEASE-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/com.googlecode.javaewah/JavaEWAH/1.1.6/94ad16d728b374d65bd897625f3fbb3da223a2b6/JavaEWAH-1.1.6.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.6.RELEASE/e8c88fd703dbdf79f94178a5018ad67d1ecb1d0d/spring-boot-autoconfigure-2.0.6.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/com.googlecode.javaewah/JavaEWAH/1.1.6/ca2745e91c6a51f8e6809d1579bda36ad83f1f58/JavaEWAH-1.1.6-sources.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.6.RELEASE/ba7cdc47aee11fee86f9737a18c33a1ccf64b3ac/spring-boot-autoconfigure-2.0.6.RELEASE-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.6/e3fd8ced1f52c7574af952e2e6da0df8df08eb82/httpcore-4.4.6.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.7/4b7f0e0dc527fab032e9800ed231080fdc3ac015/jackson-core-2.9.7.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.6/57cc0a7af46d66754e632bddc558a913b9e66ac3/httpcore-4.4.6-sources.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.7/478a76e0ca46b25648abce6ad4858cde5e8488ec/jackson-core-2.9.7-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -657,6 +536,17 @@
         <JAVADOC />
         <SOURCES>
           <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/com.sun.jersey.contribs/jersey-apache-client4/1.19.1/5f771b12dbc77579012668adcd8645518df363ab/jersey-apache-client4-1.19.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.3/d1577ae15f01ef5438c5afc62162457c00a34713/httpclient-4.5.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.3/4969730c661fff76fa7f9d4c7c61545817f5b033/httpclient-4.5.3-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -815,11 +705,11 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.0.10.RELEASE/8ec7da928082a123c50d5d70cd4b46382db27e8b/spring-beans-5.0.10.RELEASE.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/934c04d3cfef185a8008e7bf34331b79730a9d43/javax.annotation-api-1.3.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.0.10.RELEASE/d0b8fcd9ddd75212bb7a1bd750ef1ffd597c1bd8/spring-beans-5.0.10.RELEASE-sources.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/65dfd2c47380bf72ec62a5b8c4ceb78a4eda1a53/javax.annotation-api-1.3.2-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -837,66 +727,11 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/934c04d3cfef185a8008e7bf34331b79730a9d43/javax.annotation-api-1.3.2.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.19/2d998d3d674b172a588e54ab619854d073f555b5/snakeyaml-1.19.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/65dfd2c47380bf72ec62a5b8c4ceb78a4eda1a53/javax.annotation-api-1.3.2-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/2.0.6.RELEASE/c71f18a214c99f719ac567c6e9547b43aed0d803/spring-boot-actuator-2.0.6.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/2.0.6.RELEASE/972dc9d0f6b060531b9e499e40ab6d009ac0790a/spring-boot-actuator-2.0.6.RELEASE-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.10.RELEASE/6f53de0618219fefc2aebf92ba175e6b33e14ce0/spring-context-5.0.10.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.10.RELEASE/c2ec0079b3e8cc640f4ae2647a878d5dea05f949/spring-context-5.0.10.RELEASE-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.10/9e1ac84eed220281841b75e72fb9de5a297fbf04/HdrHistogram-2.1.10.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.10/411ca1d8f3f3037e19dcf5350807b0b74350ca33/HdrHistogram-2.1.10-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.latencyutils/LatencyUtils/2.0.3/769c0b82cb2421c8256300e907298a9410a2a3d3/LatencyUtils-2.0.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.latencyutils/LatencyUtils/2.0.3/fbc38259e2077a428984637d811dac542a6a913e/LatencyUtils-2.0.3-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.9.7/cbd919f1ce67533e07b98dd493247e8dbabc26b2/jackson-datatype-jsr310-2.9.7.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.9.7/582dca5eb0ac1eec3eb9321828720640a19fccbb/jackson-datatype-jsr310-2.9.7-sources.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.19/3110a637bd11c3094b8017dd1c29fd29baccf292/snakeyaml-1.19-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -908,6 +743,17 @@
         <JAVADOC />
         <SOURCES>
           <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.9.7/ab752c327801dcd8dc1403ff7f40b1ccec673100/jackson-datatype-jdk8-2.9.7-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.9.7/cbd919f1ce67533e07b98dd493247e8dbabc26b2/jackson-datatype-jsr310-2.9.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.9.7/582dca5eb0ac1eec3eb9321828720640a19fccbb/jackson-datatype-jsr310-2.9.7-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -991,11 +837,33 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.0.10.RELEASE/8ec7da928082a123c50d5d70cd4b46382db27e8b/spring-beans-5.0.10.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.0.10.RELEASE/d0b8fcd9ddd75212bb7a1bd750ef1ffd597c1bd8/spring-beans-5.0.10.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
           <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.0.10.RELEASE/da65874f61aef9c25db794f493e50683346d3056/spring-aop-5.0.10.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
           <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.0.10.RELEASE/108554af6ccc431713cf051cd19a19966820b1bc/spring-aop-5.0.10.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.10.RELEASE/6f53de0618219fefc2aebf92ba175e6b33e14ce0/spring-context-5.0.10.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.10.RELEASE/c2ec0079b3e8cc640f4ae2647a878d5dea05f949/spring-context-5.0.10.RELEASE-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -1013,11 +881,22 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.60/bd47ad3bd14b8e82595c7adaa143501e60842a84/bcprov-jdk15on-1.60.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/5.0.9.RELEASE/50cc3e212645b95494a14b6e71800c4b1f3de131/spring-security-crypto-5.0.9.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.60/7c57a4d13fe53d9abb967bba600dd0b293dafd6a/bcprov-jdk15on-1.60-sources.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/5.0.9.RELEASE/92e0297cff8b4c4245d6ad837d30819b421a33a0/spring-security-crypto-5.0.9.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.60/d0c46320fbc07be3a24eb13a56cee4e3d38e0c75/bcpkix-jdk15on-1.60.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.60/a25f041293f401af08efba63ff4bbdce98134a03/bcpkix-jdk15on-1.60-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -1165,6 +1044,17 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.60/bd47ad3bd14b8e82595c7adaa143501e60842a84/bcprov-jdk15on-1.60.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.60/7c57a4d13fe53d9abb967bba600dd0b293dafd6a/bcprov-jdk15on-1.60-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
           <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty-contexts/0.4.9/6efe17a25602a5424c18ab975aa9c28b6d6b7f56/rxnetty-contexts-0.4.9.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -1192,28 +1082,6 @@
         <JAVADOC />
         <SOURCES>
           <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-annotations-api/8.5.34/883319f3246496a29a5082cb86b950d315a10c98/tomcat-annotations-api-8.5.34-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.3/d1577ae15f01ef5438c5afc62162457c00a34713/httpclient-4.5.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.3/4969730c661fff76fa7f9d4c7c61545817f5b033/httpclient-4.5.3-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/3f15fff45d57656685abfee9e8302bf14580044c/commons-codec-1.9-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -1359,11 +1227,22 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.7/4b7f0e0dc527fab032e9800ed231080fdc3ac015/jackson-core-2.9.7.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.6/e3fd8ced1f52c7574af952e2e6da0df8df08eb82/httpcore-4.4.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.7/478a76e0ca46b25648abce6ad4858cde5e8488ec/jackson-core-2.9.7-sources.jar!/" />
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.6/57cc0a7af46d66754e632bddc558a913b9e66ac3/httpcore-4.4.6-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/3f15fff45d57656685abfee9e8302bf14580044c/commons-codec-1.9-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -1387,6 +1266,15 @@
         <SOURCES>
           <root url="jar://E:/gradle_repo/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/962153db4a9ea71b79d047dfd1b2a0d80d8f4739/slf4j-api-1.7.25-sources.jar!/" />
         </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../unresolved dependency - org.springframework.cloud spring-cloud-starter-openfeign2 2.0.2.RELEASE" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
