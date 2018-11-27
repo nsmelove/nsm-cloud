@@ -8,3 +8,5 @@ include 'registry'
 
 include 'app2'
 
+include 'gateway'
+

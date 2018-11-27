@@ -11,4 +11,5 @@ public interface App2Client {
 
     @RequestMapping("/")
     String index();
+
 }
