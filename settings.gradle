@@ -10,3 +10,8 @@ include 'app2'
 
 include 'gateway'
 
+
+include 'appf1'
+
+include 'appf2'
+

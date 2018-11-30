@@ -1,0 +1,11 @@
+server:
+  port: 8764
+
+spring:
+  application:
+    name: appf1
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
